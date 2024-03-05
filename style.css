@@ -1,0 +1,58 @@
+div{
+    border: solid;
+}
+
+.calculator-container{
+    margin: auto;
+    width: 500px;
+    height: 575px;
+    padding: 70px 0;
+    background-color: black;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 75px;
+}
+
+.row{
+    display: flex;
+}
+
+.display-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100px;
+    font-size: 75px;
+    background-color: white;
+    margin: 0 15px;
+}
+
+.num, .op, .compute, .misc{
+    width: 114px;
+    height: 100px;
+}
+
+.num:hover, .op:hover, .compute:hover, .misc:hover{
+    filter: brightness(85%);
+}
+
+.num{
+    background-color: lightblue;
+}
+
+.misc{
+    background-color: lightgreen;
+}
+
+.compute{
+    width: 228px;
+}
+
+.op, .compute{
+    background-color: lightpink;
+}
