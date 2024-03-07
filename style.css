@@ -18,6 +18,10 @@ div{
     font-size: 75px;
 }
 
+.display{
+    overflow: scroll;
+}
+
 .row{
     display: flex;
 }
