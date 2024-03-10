@@ -36,16 +36,16 @@ div{
     margin: 0 15px;
 }
 
-.num, .op, .compute, .misc{
+.num, .op, .compute, .misc, .decimal{
     width: 114px;
     height: 100px;
 }
 
-.num:hover, .op:hover, .compute:hover, .misc:hover{
-    filter: brightness(85%);
+.num:active, .op:active, .compute:active, .misc:active, .decimal:active{
+    filter: brightness(125%);
 }
 
-.num{
+.num, .decimal{
     background-color: lightblue;
 }
 
