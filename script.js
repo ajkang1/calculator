@@ -65,7 +65,7 @@ operators.forEach((operator) => {
 
 decimal.addEventListener('click', () => {
     if(display.textContent.indexOf('.') === -1){
-        if(op === "" || num1 === ""){
+        if(op === ""){
             num1 += ".";
             display.textContent = num1;
         }else{
